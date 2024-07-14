@@ -1,0 +1,9 @@
+//取消http代理
+git config --global --unset http.proxy
+//取消https代理 
+git config --global --unset https.proxy
+
+or
+
+代理 
+git config --global http.proxy http://127.0.0.1:17890
