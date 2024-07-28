@@ -1,0 +1,8 @@
+﻿C:\software\VS\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(LinkedList.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+C:\Users\IMikoto\Documents\VS_Files\FindJob\DataStruct\LinkedList\main.cpp(200,7): error C2664: “bool Queue::Dequeue(double &)”: 无法将参数 1 从“int”转换为“double &”
+  C:\Users\IMikoto\Documents\VS_Files\FindJob\DataStruct\LinkedList\queue.h(67,13):
+  参见“Queue::Dequeue”的声明
+  C:\Users\IMikoto\Documents\VS_Files\FindJob\DataStruct\LinkedList\main.cpp(200,7):
+  尝试匹配参数列表“(int)”时
+  
